@@ -1,3 +1,53 @@
-📝 Todo Application
+# 📝 Todo Application
 
-A simple Todo Management Application built using Spring Boot and PostgreSQL.
+A simple **Todo Management Application** built using **Spring Boot** and **PostgreSQL**.
+
+## 🚀 Features
+
+* ➕ Add new todos
+* 📋 View all todos
+* ✏️ Update todos
+* 🗑️ Delete todos
+* ✅ Mark todos as completed
+* 🔐 User registration and authentication
+* 🔒 Password encryption using BCrypt
+
+## 🛠️ Technologies Used
+
+* ☕ Java
+* 🌱 Spring Boot
+* 🗄️ Spring Data JPA
+* 🐘 PostgreSQL
+* 🔐 Spring Security
+* 📦 Maven
+
+## 📂 Project Structure
+
+```text
+TodoApplication
+├── Controller
+├── Service
+├── Repository
+├── Entity
+└── Configuration
+```
+
+## ▶️ How to Run
+
+1. Clone the repository
+2. Create a PostgreSQL database named `todo`
+3. Update the database credentials
+4. Run the Spring Boot application
+5. Open the application on:
+
+```text
+http://localhost:8081
+```
+
+## 🎯 Purpose
+
+This project was created to practice **Spring Boot, REST APIs, JPA, PostgreSQL, and Spring Security** while building a practical backend application.
+
+---
+
+👨‍💻 **Developed by Praveen Kanth**
